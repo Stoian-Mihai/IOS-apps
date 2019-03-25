@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EmojiMash" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G7q-ey-PCx">
+                                <rect key="frame" x="29" y="121" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="I8u-aC-53V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2x-CO-aQX">
+                                <rect key="frame" x="101" y="121" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wdX-QU-9Ee"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="npO-G5-v6x">
+                                <rect key="frame" x="171" y="121" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tV4-fL-kql"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Di-kb-21e">
+                                <rect key="frame" x="240" y="121" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="efr-gb-5qL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPC-10-s5n">
+                                <rect key="frame" x="303" y="121" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hqJ-6g-kxS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NaP-MW-R67">
+                                <rect key="frame" x="29" y="178" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="feT-4T-g8w"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AJk-mv-lDK">
+                                <rect key="frame" x="101" y="178" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="F2o-bS-lfH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tXD-3p-jAY">
+                                <rect key="frame" x="171" y="178" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2nr-ij-iAG"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaI-yV-lfW">
+                                <rect key="frame" x="240" y="178" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qPt-dD-MIf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vek-ls-eg9">
+                                <rect key="frame" x="303" y="178" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VIe-Vj-a8A"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uX3-0b-CVu">
+                                <rect key="frame" x="29" y="235" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gvh-NS-9Id"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MqT-Rg-XSK">
+                                <rect key="frame" x="101" y="235" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="l9d-f9-vmN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6tz-9s-NHp">
+                                <rect key="frame" x="171" y="235" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pg2-Mw-Ysw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zkl-dc-ui4">
+                                <rect key="frame" x="240" y="235" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aaR-Ka-HQx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iex-fP-Wzk">
+                                <rect key="frame" x="303" y="235" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Qja-iq-BN0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlM-tl-SfN">
+                                <rect key="frame" x="29" y="292" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="f3J-CS-KQl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nrc-BJ-KlN">
+                                <rect key="frame" x="101" y="292" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qUX-R5-4wQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lGH-Gf-ovf">
+                                <rect key="frame" x="171" y="292" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GsJ-Xq-3lv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0hR-Rn-Ibj">
+                                <rect key="frame" x="240" y="292" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="P94-AF-HYA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tMm-4U-CYK">
+                                <rect key="frame" x="303" y="292" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ZZA-jg-fGu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvP-wk-uj4">
+                                <rect key="frame" x="29" y="349" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Iy-jO-RPt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="alv-iu-Nkc">
+                                <rect key="frame" x="101" y="349" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="BiQ-e1-txe"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="un7-o3-4PU">
+                                <rect key="frame" x="171" y="349" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="616-Wx-tRr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGP-ZV-lwX">
+                                <rect key="frame" x="240" y="349" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eCI-6M-h0x"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KzM-BE-8h6">
+                                <rect key="frame" x="303" y="349" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgn-r8-js3"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="krb-jZ-ySU">
+                                <rect key="frame" x="29" y="406" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jIM-A2-wIc"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6g-DN-Jfc">
+                                <rect key="frame" x="101" y="406" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0V2-xG-urr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hbg-cH-mLH">
+                                <rect key="frame" x="171" y="406" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0hz-HT-YLb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8J-05-2Yj">
+                                <rect key="frame" x="240" y="406" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mEj-ok-iMY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DyK-nx-shH">
+                                <rect key="frame" x="303" y="406" width="55" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <state key="normal" title="😀"/>
+                                <connections>
+                                    <action selector="emojiPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="TjP-96-E7s"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Hits: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Iw5-uO-Bh9">
+                                <rect key="frame" x="101" y="638" width="244" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Missed: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wu8-86-iyJ">
+                                <rect key="frame" x="88" y="721" width="257" height="67"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="54"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="hitsLabel" destination="Iw5-uO-Bh9" id="Re2-Fh-gvW"/>
+                        <outlet property="missedLabel" destination="wu8-86-iyJ" id="YNx-W4-e0a"/>
+                        <outletCollection property="buttonsCollection" destination="G7q-ey-PCx" collectionClass="NSMutableArray" id="JpE-wY-sKB"/>
+                        <outletCollection property="buttonsCollection" destination="s2x-CO-aQX" collectionClass="NSMutableArray" id="zgJ-fA-RWs"/>
+                        <outletCollection property="buttonsCollection" destination="npO-G5-v6x" collectionClass="NSMutableArray" id="WIG-dp-XeZ"/>
+                        <outletCollection property="buttonsCollection" destination="2Di-kb-21e" collectionClass="NSMutableArray" id="zFz-V9-IiU"/>
+                        <outletCollection property="buttonsCollection" destination="pPC-10-s5n" collectionClass="NSMutableArray" id="sNl-Wy-Am6"/>
+                        <outletCollection property="buttonsCollection" destination="NaP-MW-R67" collectionClass="NSMutableArray" id="2PU-r6-uZP"/>
+                        <outletCollection property="buttonsCollection" destination="AJk-mv-lDK" collectionClass="NSMutableArray" id="Aji-V9-fif"/>
+                        <outletCollection property="buttonsCollection" destination="tXD-3p-jAY" collectionClass="NSMutableArray" id="9cO-QP-mOJ"/>
+                        <outletCollection property="buttonsCollection" destination="vek-ls-eg9" collectionClass="NSMutableArray" id="tQb-Bh-JIC"/>
+                        <outletCollection property="buttonsCollection" destination="uX3-0b-CVu" collectionClass="NSMutableArray" id="0V9-v0-MiQ"/>
+                        <outletCollection property="buttonsCollection" destination="MqT-Rg-XSK" collectionClass="NSMutableArray" id="xZJ-I6-jFZ"/>
+                        <outletCollection property="buttonsCollection" destination="6tz-9s-NHp" collectionClass="NSMutableArray" id="cWg-xa-ZA5"/>
+                        <outletCollection property="buttonsCollection" destination="zkl-dc-ui4" collectionClass="NSMutableArray" id="mO6-5t-wLD"/>
+                        <outletCollection property="buttonsCollection" destination="Iex-fP-Wzk" collectionClass="NSMutableArray" id="3Ji-42-Pi3"/>
+                        <outletCollection property="buttonsCollection" destination="zlM-tl-SfN" collectionClass="NSMutableArray" id="gZp-Ga-jbC"/>
+                        <outletCollection property="buttonsCollection" destination="ZvP-wk-uj4" collectionClass="NSMutableArray" id="OMf-2F-ZBX"/>
+                        <outletCollection property="buttonsCollection" destination="krb-jZ-ySU" collectionClass="NSMutableArray" id="fDi-XW-b9q"/>
+                        <outletCollection property="buttonsCollection" destination="nrc-BJ-KlN" collectionClass="NSMutableArray" id="w0r-M2-729"/>
+                        <outletCollection property="buttonsCollection" destination="alv-iu-Nkc" collectionClass="NSMutableArray" id="HFL-fe-Ned"/>
+                        <outletCollection property="buttonsCollection" destination="C6g-DN-Jfc" collectionClass="NSMutableArray" id="646-nf-saL"/>
+                        <outletCollection property="buttonsCollection" destination="lGH-Gf-ovf" collectionClass="NSMutableArray" id="KMg-at-Xch"/>
+                        <outletCollection property="buttonsCollection" destination="un7-o3-4PU" collectionClass="NSMutableArray" id="lhr-pL-NSX"/>
+                        <outletCollection property="buttonsCollection" destination="hbg-cH-mLH" collectionClass="NSMutableArray" id="21g-ED-H2d"/>
+                        <outletCollection property="buttonsCollection" destination="0hR-Rn-Ibj" collectionClass="NSMutableArray" id="ZMt-mb-Hw4"/>
+                        <outletCollection property="buttonsCollection" destination="KzM-BE-8h6" collectionClass="NSMutableArray" id="BLU-FE-cko"/>
+                        <outletCollection property="buttonsCollection" destination="z8J-05-2Yj" collectionClass="NSMutableArray" id="s9q-kt-coL"/>
+                        <outletCollection property="buttonsCollection" destination="DyK-nx-shH" collectionClass="NSMutableArray" id="8dm-ja-7Gl"/>
+                        <outletCollection property="buttonsCollection" destination="FaI-yV-lfW" collectionClass="NSMutableArray" id="gsC-yz-5pZ"/>
+                        <outletCollection property="buttonsCollection" destination="aGP-ZV-lwX" collectionClass="NSMutableArray" id="GMz-Vt-wGe"/>
+                        <outletCollection property="buttonsCollection" destination="tMm-4U-CYK" collectionClass="NSMutableArray" id="089-lC-tqJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-498.55072463768118" y="139.95535714285714"/>
+        </scene>
+    </scenes>
+</document>
